@@ -1,6 +1,10 @@
 # portfolio-project
 This project focuses on building a personal portfolio website. Throughout this project, I am willing to learn and work with all the required technical skills such as Html, Css, Javascript. By the end of this project, a well-detailed portfolio will be delivered. 
+
+
 My wireframe and logo:
+
+
 Home Page: ![Homepage](https://github.com/user-attachments/assets/a7eebb11-6233-49c6-a07e-b20d7e47d930)
 About: ![About](https://github.com/user-attachments/assets/6970be50-6ef4-4c8d-937b-4597b548f811)
 Projects: ![Projects](https://github.com/user-attachments/assets/7a531680-cd22-4d2a-b465-12c0ef92a490)
