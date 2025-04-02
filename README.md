@@ -11,5 +11,6 @@ Projects: ![Projects](https://github.com/user-attachments/assets/7a531680-cd22-4
 Resume: ![Resume](https://github.com/user-attachments/assets/2759c29c-df93-42b5-b648-57cb6112277c)
 Contact: ![Contact](https://github.com/user-attachments/assets/e981ca50-82b8-4265-9b1e-59b4e11c17a9)
 
-Logo: ![Untitled design](https://github.com/user-attachments/assets/c18fa60f-2564-41db-9903-d8cfeb286e63)
+Logo: ![Untitled design (1)](https://github.com/user-attachments/assets/497a71ef-19c5-44a7-90ee-9a2a22723566)
+
 
