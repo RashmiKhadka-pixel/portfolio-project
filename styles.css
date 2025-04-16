@@ -1,0 +1,185 @@
+
+*{
+	box-sizing: border-box;
+}
+
+html, body
+{
+	margin:0;
+	padding: 0;
+}
+
+body
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: #ffe9c1;
+	color: #000000;
+	font-family: Arail, Helvetics, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	filter: drop-shadow(0 0 10px #ffb6c1);
+}
+
+.navbar
+{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 30px;
+	width: 100%;
+	margin:0 auto;
+	border-radius: 12px;
+	overflow:hidden;
+}
+
+.navbar-right a
+{
+	color:black;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 16px;
+	font-family: "Garamond", serif;
+	font-weight: 900;
+}
+
+.navbar-right a:hover
+{
+	color: #ff69b4;
+}
+
+.clr
+{
+	clear:both;
+}
+
+.container
+{
+	display: flex;
+	height: auto;
+	width: 100%;
+	padding: 25px 30px;
+	box-sizing: border-box;
+}
+
+.left
+{
+	flex:1;
+	position: relative;
+	overflow: hidden;
+}
+
+.right
+{
+	flex:1;
+	position: relative;
+	overflow: hidden;
+	background-color: floralwhite;
+}
+
+.left img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+.blockmain
+{
+	text-align: center;
+	font-family: "Papyrus", fantasy;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blockmain h1
+{
+	margin: 0;
+	font-size: 32px;
+}
+
+.blockmain h4
+{
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.intro
+{
+	font-family: "Garamond", serif;
+	font-size: 16px;
+  	padding: 40px;
+  	max-width: 1000px;
+  	margin: 50px auto;
+  	border-radius: 10px;
+  	line-height: 1.6;
+  	text-align: center;
+  	box-sizing: border-box;
+}
+
+.block-container::after 
+{
+  content: "";
+  display: table;
+  clear: both;
+  height: auto;
+}
+
+.block
+{
+	position: relative;
+	float: left;
+	width: 33.3%;
+	border:5px solid #ccc;
+	padding: 25px 30px;
+	background-color: floralwhite;
+	box-sizing:border-box;
+	box-shadow: 5px 10px 5px 5px #ffe5b4;
+	text-align: center;
+	margin:0 auto;
+	font-size: 16 px;
+	font-family: "Garamond", serif;
+	font-weight: 800;
+}
+
+.quote
+{
+	background-color: floralwhite;
+	text-align: center;
+  	box-sizing: border-box;
+  	margin:0 auto;
+  	border-radius: 12px;
+  	padding: 20px;
+  	font-family: "Papyrus", fantasy;
+
+}
+
+#main-footer
+{
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	margin-top: 40px;
+	overflow:hidden;
+}
+
+#main-footer a
+{
+	color: black;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 16 px;
+	font-family: "Garamond", serif;
+	font-weight: 900;
+}
+
+#main-footer a:hover
+{
+	color: #ff69b4;
+}
+
