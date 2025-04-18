@@ -11,8 +11,8 @@ html, body
 
 body
 {
-    background-repeat: no-repeat;
-    background-size: cover;
+    	background-repeat: no-repeat;
+        background-size: cover;
 	background-color: #ffe9c1;
 	color: #000000;
 	font-family: Arail, Helvetics, sans-serif;
@@ -27,10 +27,10 @@ body
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 25px 30px;
+	padding: 16px 32px;
 	width: 100%;
 	margin:0 auto;
-	border-radius: 12px;
+	border-radius: 16px;
 	overflow:hidden;
 }
 
@@ -38,7 +38,7 @@ body
 {
 	color:black;
 	text-decoration: none;
-	margin-left: 20px;
+	margin-left: 16px;
 	font-size: 16px;
 	font-family: "Garamond", serif;
 	font-weight: 900;
@@ -53,13 +53,13 @@ body
 {
 	clear:both;
 }
-
+ /*HOMEEEEEEE-*/ /*HOMEEEEEEE-*/  /*HOMEEEEEEE-*/
 .container
 {
 	display: flex;
 	height: auto;
 	width: 100%;
-	padding: 25px 30px;
+	padding: 16px 32px;
 	box-sizing: border-box;
 }
 
@@ -91,9 +91,9 @@ body
 	text-align: center;
 	font-family: "Papyrus", fantasy;
 	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%, -50%);
 }
 
 .blockmain h1
@@ -104,8 +104,8 @@ body
 
 .blockmain h4
 {
-	font-size: 18px;
-	margin-top: 10px;
+	font-size: 16px;
+	margin-top: 8px;
 }
 
 .intro
@@ -114,8 +114,8 @@ body
 	font-size: 16px;
   	padding: 40px;
   	max-width: 1000px;
-  	margin: 50px auto;
-  	border-radius: 10px;
+  	margin: 48px auto;
+  	border-radius: 16px;
   	line-height: 1.6;
   	text-align: center;
   	box-sizing: border-box;
@@ -134,11 +134,11 @@ body
 	position: relative;
 	float: left;
 	width: 33.3%;
-	border:5px solid #ccc;
-	padding: 25px 30px;
+	border:8px solid #ccc;
+	padding: 16px 32px;
 	background-color: floralwhite;
 	box-sizing:border-box;
-	box-shadow: 5px 10px 5px 5px #ffe5b4;
+	box-shadow: 8px 16px 8px 16px #ffe5b4;
 	text-align: center;
 	margin:0 auto;
 	font-size: 16 px;
@@ -146,14 +146,84 @@ body
 	font-weight: 800;
 }
 
+/*HOMEEEEEEE-*/ /*HOMEEEEEEE-*/ /*HOMEEEEEEE-*/
+/*ABOUTTTT-*/  /*ABOUTTTT-*/  /*ABOUTTTT-*/
+
+.abouttitle
+{
+	font-family: "Garamond", serif;
+	font-size: 16px;
+  	padding: 40px;
+  	background-color: #ffe9c1;
+}
+
+.bio
+{
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  	gap: 16px;
+	height: auto;
+	width: 100%;
+   	padding: 16px 32px;
+	box-sizing: border-box;
+	background-color: #ffe9c1;
+}
+
+.bioo, .bioimg
+{
+	flex:1;
+	position: relative;
+	overflow: hidden;
+}
+
+.mainb
+{
+	font-family: "Garamond", serif;
+	font-size: 16px;
+  	padding: 40px;
+  	max-width: 1000px;
+  	margin: 48px auto;
+  	border-radius: 16px;
+  	line-height: 1.6;
+  	text-align: left;
+  	box-sizing: border-box;
+}
+
+.mainb h3
+{
+	display: inline-block;
+	border-bottom: 8px solid orangered;
+}
+.bioimg img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	box-shadow: 0 16px 32px rgba(255, 105, 180, 0.5); 
+        border-radius: 16px;
+}
+
+
+/*ABOUTTTT-*/  /*ABOUTTTT-*/  /*ABOUTTTT-*/
+
+.quote-section
+{
+	text-align: center;
+	margin-top: 32px;
+}
 .quote
 {
 	background-color: floralwhite;
 	text-align: center;
+	margin: 0 auto;
   	box-sizing: border-box;
+  	display: inline-block;
   	margin:0 auto;
-  	border-radius: 12px;
-  	padding: 20px;
+  	border-radius: 16px;
+  	border-left: 8px solid #ff69b4;
+  	padding: 16px;
   	font-family: "Papyrus", fantasy;
 
 }
@@ -162,7 +232,7 @@ body
 {
 	background-color: white;
 	text-align: center;
-	padding: 20px;
+	padding: 16px;
 	width: 100%;
 	margin-top: 40px;
 	overflow:hidden;
@@ -172,7 +242,7 @@ body
 {
 	color: black;
 	text-decoration: none;
-	margin-left: 20px;
+	margin-left: 16px;
 	font-size: 16 px;
 	font-family: "Garamond", serif;
 	font-weight: 900;
