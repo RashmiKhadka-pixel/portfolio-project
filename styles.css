@@ -11,8 +11,8 @@ html, body
 
 body
 {
-    	background-repeat: no-repeat;
-        background-size: cover;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 	background-color: #ffe9c1;
 	color: #000000;
 	font-family: Arail, Helvetics, sans-serif;
@@ -30,7 +30,6 @@ body
 	padding: 16px 32px;
 	width: 100%;
 	margin:0 auto;
-	border-radius: 16px;
 	overflow:hidden;
 }
 
@@ -47,6 +46,11 @@ body
 .navbar-right a:hover
 {
 	color: #ff69b4;
+}
+
+.navbar-right a.active
+{
+  color: #ff69b4; 
 }
 
 .clr
@@ -149,248 +153,6 @@ body
 /*HOMEEEEEEE-*/ /*HOMEEEEEEE-*/ /*HOMEEEEEEE-*/
 /*ABOUTTTT-*/  /*ABOUTTTT-*/  /*ABOUTTTT-*/
 
-.abouttitle
-{
-	font-family: "Garamond", serif;
-	font-size: 16px;
-  	padding: 40px;
-  	background-color: #ffe9c1;
-}
-
-.bio
-{
-  	display: flex;
-  	justify-content: space-between;
-  	align-items: center;
-  	gap: 16px;
-	height: auto;
-	width: 100%;
-   	padding: 16px 32px;
-	box-sizing: border-box;
-	background-color: #ffe9c1;
-}
-
-.bioo, .bioimg
-{
-	flex:1;
-	position: relative;
-	overflow: hidden;
-}
-
-.mainb
-{
-	font-family: "Garamond", serif;
-	font-size: 16px;
-  	padding: 40px;
-  	max-width: 1000px;
-  	margin: 48px auto;
-  	border-radius: 16px;
-  	line-height: 1.6;
-  	text-align: left;
-  	box-sizing: border-box;
-}
-
-.mainb h3
-{
-	display: inline-block;
-	border-bottom: 8px solid orangered;
-}
-.bioimg img
-{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	display: block;
-	box-shadow: 0 16px 32px rgba(255, 105, 180, 0.5); 
-        border-radius: 16px;
-}
-
-
-/*ABOUTTTT-*/  /*ABOUTTTT-*/  /*ABOUTTTT-*/
-
-.quote-section
-{
-	text-align: center;
-	margin-top: 32px;
-}
-.quote
-{
-	background-color: floralwhite;
-	text-align: center;
-	margin: 0 auto;
-  	box-sizing: border-box;
-  	display: inline-block;
-  	margin:0 auto;
-  	border-radius: 16px;
-  	border-left: 8px solid #ff69b4;
-  	padding: 16px;
-  	font-family: "Papyrus", fantasy;
-
-}
-
-#main-footer
-{
-	background-color: white;
-	text-align: center;
-	padding: 16px;
-	width: 100%;
-	margin-top: 40px;
-	overflow:hidden;
-}
-*{
-	box-sizing: border-box;
-}
-
-html, body
-{
-	margin:0;
-	padding: 0;
-}
-
-body
-{
-  background-repeat: no-repeat;
-  background-size: cover;
-	background-color: #ffe9c1;
-	color: #000000;
-	font-family: Arail, Helvetics, sans-serif;
-	font-size: 16px;
-	line-height: 1.6em;
-	filter: drop-shadow(0 0 10px #ffb6c1);
-}
-
-.navbar
-{
-	background-color: white;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 16px 32px;
-	width: 100%;
-	margin:0 auto;
-	overflow:hidden;
-}
-
-.navbar-right a
-{
-	color:black;
-	text-decoration: none;
-	margin-left: 16px;
-	font-size: 16px;
-	font-family: "Garamond", serif;
-	font-weight: 900;
-}
-
-.navbar-right a:hover
-{
-	color: #ff69b4;
-}
-
-.navbar-right a.active
-{
-  color: #ff69b4; 
-}
-
-.clr
-{
-	clear:both;
-}
- /*HOMEEEEEEE-*/ /*HOMEEEEEEE-*/  /*HOMEEEEEEE-*/
-.container
-{
-	display: flex;
-	height: auto;
-	width: 100%;
-	padding: 16px 32px;
-	box-sizing: border-box;
-}
-
-.left
-{
-	flex:1;
-	position: relative;
-	overflow: hidden;
-}
-
-.right
-{
-	flex:1;
-	position: relative;
-	overflow: hidden;
-	background-color: floralwhite;
-}
-
-.left img
-{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	display: block;
-}
-
-.blockmain
-{
-	text-align: center;
-	font-family: "Papyrus", fantasy;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.blockmain h1
-{
-	margin: 0;
-	font-size: 32px;
-}
-
-.blockmain h4
-{
-	font-size: 16px;
-	margin-top: 8px;
-}
-
-.intro
-{
-	font-family: "Garamond", serif;
-	font-size: 16px;
-  	padding: 40px;
-  	max-width: 1000px;
-  	margin: 48px auto;
-  	border-radius: 16px;
-  	line-height: 1.6;
-  	text-align: center;
-  	box-sizing: border-box;
-}
-
-.block-container::after 
-{
-  content: "";
-  display: table;
-  clear: both;
-  height: auto;
-}
-
-.block
-{
-	position: relative;
-	float: left;
-	width: 33.3%;
-	border:8px solid #ccc;
-	padding: 16px 32px;
-	background-color: floralwhite;
-	box-sizing:border-box;
-	box-shadow: 8px 16px 8px 16px #ffe5b4;
-	text-align: center;
-	margin:0 auto;
-	font-size: 16 px;
-	font-family: "Garamond", serif;
-	font-weight: 800;
-}
-
-/*HOMEEEEEEE-*/ /*HOMEEEEEEE-*/ /*HOMEEEEEEE-*/
-/*ABOUTTTT-*/  /*ABOUTTTT-*/  /*ABOUTTTT-*/
-
 .title
 {
 	font-family: "Garamond", serif;
@@ -405,11 +167,11 @@ body
   	justify-content: space-between;
   	align-items: center;
   	gap: 16px;
-	  height: auto;
-	  width: 100%;
+	height: auto;
+	width: 100%;
    	padding: 16px 32px;
-	  box-sizing: border-box;
-	  background-color: #ffe9c1;
+	box-sizing: border-box;
+	background-color: #ffe9c1;
 }
 
 .written, .iimg
@@ -421,8 +183,8 @@ body
 
 .desc
 {
-	font-family: "Garamond", serif;
-	font-size: 16px;
+  font-family: "Garamond", serif;
+  font-size: 16px;
   padding: 32px;
   max-width: 1000px;
   margin: 48px auto;
@@ -445,7 +207,7 @@ body
 	object-fit: cover;
 	display: flex;
 	box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
-  border-radius: 16px;
+        border-radius: 16px;
 }
 
 .line
@@ -457,6 +219,27 @@ body
 }
 
 /*ABOUTTTT-*/  /*ABOUTTTT-*/  /*ABOUTTTT-*/
+
+/*PROJECTT*/
+
+.projectsection
+{
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 0 32px rgba(255, 105, 180, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.projectsection:hover
+{
+	tranform: translateY(-5px);
+	box-shadow: 0 0 32px rgba(255, 105, 180, 0.5);;
+}
+
+/*PROJECTT*/
+
 /*RESUME*/
 
 .resume
@@ -505,23 +288,6 @@ body
 	margin-top: 40px;
 	overflow:hidden;
 }
-
-#main-footer a
-{
-	color: black;
-	text-decoration: none;
-	margin-left: 16px;
-	font-size: 16 px;
-	font-family: "Garamond", serif;
-	font-weight: 900;
-}
-
-#main-footer a:hover
-{
-	color: #ff69b4;
-}
-
-
 
 #main-footer a
 {
