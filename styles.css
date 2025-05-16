@@ -5,8 +5,12 @@
 
 html, body
 {
-	margin:0
+	height: 100%;
+	margin:0;
 	padding: 0;
+	box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 	overflow-x: hidden;
 }
 
@@ -16,10 +20,15 @@ body
   background-size: cover;
 	background-color: #ffe9c1;
 	color: #000000;
-	font-family: Arail, Helvetics, sans-serif;
+	font-family: Arail, Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 1.6em;
 	filter: drop-shadow(0 0 10px #ffb6c1);
+}
+
+.content
+{
+	flex: 1;
 }
 
 .navbar
@@ -32,6 +41,15 @@ body
 	width: 100%;
 	margin:0 auto;
 	overflow:hidden;
+	transform: translateY(-100%);
+  animation: slideDown 0.7s ease-out forwards;
+}
+
+@keyframes slideDown {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @keyframes bounce {
@@ -130,10 +148,10 @@ body
 	margin-top: 8px;
 }
 
-.intro
+.introsection
 {
 	font-family: "Garamond", serif;
-	font-size: 16px;
+	font-size: clamp(1.2rem, 5vw, 2.4rem);
   	padding: 40px;
   	max-width: 1000px;
   	margin: 48px auto;
@@ -273,6 +291,7 @@ body
 	cursor: pointer;
 	text-transform: uppercase;
 	color: black;
+	font-family: "Garamond", serif;
 	font-weight: 480;
 	letter-spacing: 2px;
 	font-size: 16px;
@@ -329,7 +348,7 @@ body
 {
 	font-family: "Garamond", serif;
 	font-size: 16px;
-  padding: 32px;
+  padding: 16px;
   max-width: 1000px;
   margin: 48px auto;
   border-radius: 8px;
@@ -368,10 +387,17 @@ body
 
 .projectsection
 {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+	height: auto;
+	width: 100%;
+  padding: 16px 32px;
+	box-sizing: border-box;
 	background-color: #ffffff;
   border: 1px solid #ddd;
   border-radius: 12px;
-  padding: 1.5rem;
   box-shadow: 0 0 32px rgba(255, 105, 180, 0.2);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -483,7 +509,6 @@ button[type="submit"]:hover {
 {
 	background-color: floralwhite;
 	text-align: center;
-	margin: 0 auto;
   	box-sizing: border-box;
   	display: inline-block;
   	margin:0 auto;
@@ -501,15 +526,14 @@ button[type="submit"]:hover {
 	padding: 16px;
 	width: 100%;
 	margin-top: 40px;
-	overflow:hidden;
 }
 
 #main-footer a
 {
 	color: black;
 	text-decoration: none;
-	margin-left: 16px;
-	font-size: 16 px;
+	margin: 0 8px;
+	font-size: 1rem;
 	font-family: "Garamond", serif;
 	font-weight: 900;
 }
