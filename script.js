@@ -70,3 +70,20 @@ for (let i=0; i<more.length; i++)
 }
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const blocks = document.querySelectorAll(".block");
+
+  blocks.forEach(block => {
+    block.addEventListener("mouseover", function () {
+      block.style.boxShadow = "0 0 15px white, 0 0 25px pink, 0 0 30px #ff69b4";
+      block.style.transform = "translateY(-5px)";
+      block.style.transition = "all 0.3s ease";
+    });
+
+    block.addEventListener("mouseout", function () {
+      block.style.boxShadow = "0 0 10px rgba(255, 192, 203, 0.3)";
+      block.style.transform = "translateY(0)";
+    });
+  });
+});
+
