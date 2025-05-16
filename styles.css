@@ -412,6 +412,37 @@ body
 
 /*RESUME*/
 
+.resum {
+  text-align: center;
+  padding: 16px;
+  margin: 16px auto;
+  background-color: #fdf2f8; /* light pink tone */
+  border: 2px solid #ff69b4;
+  border-radius: 8px;
+  max-width: 600px;
+  font-family: "Garamond", serif;
+  box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3);
+}
+
+.resum h3 {
+  font-size: 16px;
+  color: #333;
+}
+
+.resum a {
+  color: #ff1493; /* deep pink */
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 8px;
+  transition: color 0.3s ease;
+}
+
+.resum a:hover {
+  color: #c71585; /* darker pink */
+  text-decoration: underline;
+}
+
+
 .resume
 {
 	max-width: 80%;
