@@ -1,5 +1,16 @@
+console.log("Script loaded!");
+
 document.addEventListener("DOMContentLoaded", () => 
 {
+  const toggleButton = document.querySelector('.menu-toggle');
+  const navbarLinks = document.querySelector('.navbar-right');
+
+  if (toggleButton && navbarLinks) {
+  toggleButton.addEventListener('click', () => {
+    navbarLinks.classList.toggle('show');
+  });
+}
+
   // For the Send Button (Contact Page)
   const sendBtn = document.querySelector("button[type='submit']");
   if (sendBtn) {
