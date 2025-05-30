@@ -10,7 +10,7 @@
 	<body>
 		<main class="content">
 		<header class="navbar">
-			<a href="index.html"><img src="logo.png" alt="Logo" width="100" height="100" class="logo"></a>
+			<a href="index.html"><img src="logo.png" alt="Logo" width="90" height="90" class="logo"></a>
 
 			<button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
 
@@ -27,6 +27,7 @@
     	</div>
 
         <div class="projectsection">
+     
     	  <div class="written">
     	  	<div class="desc">
 	       <h3>Rental Car Management System</h3>
@@ -44,10 +45,17 @@
 	       <h4><strong>Technologies: Java, BlueJ</strong></h4>
 	       </div>
 	      </div>
-	      <div class="iimg">
-	       <img src="mm.jpg" alt="My picture">
-	      </div>
+	      <div class="gallery">
+	       <img src="rentalcar.png" alt="Rental Car" onclick="openImage(this)">
+	       <img src="rentalcar1.png" alt="Rental Car1" onclick="openImage(this)">
+	       <img src="rentalcar2.png" alt="Rental Car2" onclick="openImage(this)">
+	     </div>
         </div>
+
+        <div id="lightbox" onclick="closeImage()">
+  			<span class="close">&times;</span>
+ 			 <img class="lightbox-content" id="lightbox-img">
+		</div>
 
         <div class="projectsection">
     	  <div class="written">
@@ -57,22 +65,25 @@
 	       <h4><strong>Technologies: HTML, CSS</strong></h4>
 	       </div>
 	      </div>
-	      <div class="iimg">
-	       <img src="mm.jpg" alt="My picture">
-	      </div>
+	      <div class="gallery">
+	       <img src="portfolio1.png" alt="Portfolio1" onclick="openImage(this)">
+	       <img src="portfolio2.png" alt="Portfolio2" onclick="openImage(this)">
+	       <img src="portfolio3.png" alt="Portfolio3" onclick="openImage(this)">
+	     </div>
         </div>
 
         <div class="projectsection">
     	  <div class="written">
     	  	<div class="desc">
-	       <h3>Rental Car Management System</h3>
-	       <h4>A Java-based project to track car rentals, returns, and mileage-based charges.</h4>
-	       <h4><strong>Technologies: Java, BlueJ</strong></h4>
+	       <h3>Dummy Project: To-Do List App</h3>
+	       <h4>A basic to-do list web app that allows users to add and remove tasks. It's built using HTML, CSS, and vanilla JavaScript. This project demonstrates DOM manipulation, user interaction, and responsive design.</h4>
+	       <h4><strong>Technologies: HTML, CSS, JavaScript</strong></h4>
 	       </div>
 	      </div>
-	      <div class="iimg">
-	       <img src="mm.jpg" alt="My picture">
-	      </div>
+	      <div class="gallery">
+	       <img src="dummy.png" alt="TO-Do Dummy" onclick="openImage(this)">
+	       <img src="dummy.png" alt="TO-Do Dummy" onclick="openImage(this)">
+	     </div>
         </div>
 
     	<div class="clr"></div>
