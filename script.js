@@ -98,3 +98,18 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+//PROJECTS IMaGE
+function openImage(img) {
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  lightbox.style.display = "block";
+  lightboxImg.src = img.src;
+}
+
+function closeImage() {
+  document.getElementById("lightbox").style.display = "none";
+}
+
+
+
+
