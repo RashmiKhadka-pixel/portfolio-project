@@ -109,34 +109,3 @@ function openImage(img) {
 function closeImage() {
   document.getElementById("lightbox").style.display = "none";
 }
-//CONTACT FORM
-document.addEventListener("DOMContentLoaded", function () {
-  const form = document.getElementById("contact-form");
-
-  form.addEventListener("submit", function (e) {
-    e.preventDefault(); // Stop form from refreshing
-
-    const formData = new FormData(form);
-
-    fetch(form.action, {
-      method: form.method,
-      body: formData,
-      headers: {
-        'Accept': 'application/json'
-      }
-    }).then(response => {
-      if (response.ok) {
-        alert("Thanks for your message!");
-        form.reset(); // Clear the form fields
-      } else {
-        alert("Oops! Something went wrong.");
-      }
-    }).catch(error => {
-      alert("There was a problem submitting your form.");
-    });
-  });
-});
-
-
-
-
